@@ -11,44 +11,39 @@
     <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Screenshots</title>
-    <meta name="title" content="Screenshots">
-    <meta name="description" content="Main Menu (Administrator view)">
+    <title>Migrating to V3</title>
+    <meta name="title" content="Migrating to V3">
+    <meta name="description" content="Version 3 of QBittorrentBot introduces significant internal changes, including a full rewrite of the codebase, the switch to Aiogram, and new runtime data management via Redis.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://ch3p4ll3.github.io/QBittorrentBot/screenshots/">
+    <link rel="canonical" href="https://ch3p4ll3.github.io/QBittorrentBot/getting_started/migrating_to_v3/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://ch3p4ll3.github.io/QBittorrentBot/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ch3p4ll3.github.io/QBittorrentBot/screenshots/">
-    <meta property="og:title" content="Screenshots">
-    <meta property="og:description" content="Main Menu (Administrator view)">
-    <meta property="og:image" content="https://ch3p4ll3.github.io/QBittorrentBot/images/administrator.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Screenshots">
+    <meta property="og:url" content="https://ch3p4ll3.github.io/QBittorrentBot/getting_started/migrating_to_v3/">
+    <meta property="og:title" content="Migrating to V3">
+    <meta property="og:description" content="Version 3 of QBittorrentBot introduces significant internal changes, including a full rewrite of the codebase, the switch to Aiogram, and new runtime data management via Redis.">
     <meta property="og:site_name" content="QBittorrentBot">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://ch3p4ll3.github.io/QBittorrentBot/screenshots/">
-    <meta name="twitter:title" content="Screenshots">
-    <meta name="twitter:description" content="Main Menu (Administrator view)">
-    <meta name="twitter:image" content="https://ch3p4ll3.github.io/QBittorrentBot/images/administrator.png">
-    <meta name="twitter:image:alt" content="Screenshots">
+    <meta name="twitter:url" content="https://ch3p4ll3.github.io/QBittorrentBot/getting_started/migrating_to_v3/">
+    <meta name="twitter:title" content="Migrating to V3">
+    <meta name="twitter:description" content="Version 3 of QBittorrentBot introduces significant internal changes, including a full rewrite of the codebase, the switch to Aiogram, and new runtime data management via Redis.">
 
     <!-- Alternate Markdown -->
-    <link rel="alternate" type="text/markdown" href="https://ch3p4ll3.github.io/QBittorrentBot/screenshots/index.md">
+    <link rel="alternate" type="text/markdown" href="https://ch3p4ll3.github.io/QBittorrentBot/getting_started/migrating_to_v3.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=4.6.0.839946099675" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.839946099675" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839946099675" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839946099675" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.839946099675" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.839946099675" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.6.0.839946099675" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -76,7 +71,7 @@
                 <nav id="retype-header-nav" class="hidden md:flex">
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../getting_started/">Getting Started</a>
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../getting_started/">Getting Started</a>
                         </li>
     
                     </ul>
@@ -128,7 +123,7 @@
                         <nav>
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../getting_started/">Getting Started</a>
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../getting_started/">Getting Started</a>
                                 </li>
         
                             </ul>
@@ -154,30 +149,110 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<h1 id="screenshots">Screenshots</h1>
-<figure class="content-center">
-    <img src="../images/administrator.png" alt="Main Menu (Administrator view)" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="357" height="315" />
-    <figcaption class="caption">Main Menu (Administrator view)</figcaption>
-</figure>
-<p><figure class="content-center">
-    <img src="../images/list_torrents.png" alt="List and filter torrents" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="488" height="182" />
-    <figcaption class="caption">List and filter torrents</figcaption>
-</figure>
-<figure class="content-center">
-    <img src="../images/torrent_info.png" alt="View torrent info" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="488" height="342" />
-    <figcaption class="caption">View torrent info</figcaption>
-</figure>
-</p>
-<h2 id="administrator--section">Administrator  section</h2>
-<p><figure class="content-center">
-    <img src="../images/administrator_settings.png" alt="Administrator Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="245" height="264" />
-    <figcaption class="caption">Administrator Settings</figcaption>
-</figure>
-<figure class="content-center">
-    <img src="../images/administrator_qbittorrent_settings.png" alt="Edit Client Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="282" height="309" />
-    <figcaption class="caption">Edit Client Settings</figcaption>
-</figure>
-</p>
+<h1 id="migrating-to-v3">Migrating to V3</h1>
+<p>Version 3 of QBittorrentBot introduces significant internal changes, including a full rewrite of the codebase, the switch to <strong>Aiogram</strong>, and new runtime data management via <strong>Redis</strong>. The configuration file format has also changed. This section explains the main differences and what you need to do to migrate from previous versions.</p>
+<hr>
+<h2 id="major-changes-in-v3">Major Changes in V3</h2>
+<h3 id="project-and-libraries">Project and Libraries</h3>
+<ul>
+<li>The entire project has been <strong>rewritten</strong> for better performance and maintainability.</li>
+<li><strong>UV</strong> (<a href="https://docs.astral.sh/uv/">Universal Virtual Environment</a>) is now used to manage dependencies and the project environment.</li>
+<li>The Telegram library is now <strong>Aiogram</strong>, a fully asynchronous framework replacing Pyrogram (deprecated).</li>
+<li><strong>Database support has been removed.</strong> Redis is now used to store all runtime data, statuses, and cached information.</li>
+<li>The bot is now fully asynchronous, more robust, and optimized for larger workloads.</li>
+</ul>
+<p><strong>Future improvements:</strong></p>
+<ul>
+<li>Implement Aiogram FSM for better state management</li>
+<li>Make the client manager fully asynchronous</li>
+<li>Add internalization (i18n) support using Aiogram</li>
+</ul>
+<hr>
+<h3 id="configuration-changes">Configuration Changes</h3>
+<p>The configuration file has been <strong>completely redesigned</strong>:</p>
+<ul>
+<li>Old <code translate="no" v-pre>config.json</code> → replaced by <strong><code translate="no" v-pre>config.yml</code></strong></li>
+<li>
+<p><strong>New fields:</strong></p>
+<ul>
+<li><code translate="no" v-pre>redis</code> → Redis connection string for runtime storage</li>
+<li><code translate="no" v-pre>users.notification_filter</code> → optional filter to limit notifications to certain torrent categories</li>
+</ul>
+</li>
+<li>Removed Pyrogram-specific fields (<code translate="no" v-pre>api_id</code> and <code translate="no" v-pre>api_hash</code>). Now <strong>only the Telegram bot token</strong> is required.</li>
+<li>Automatic configuration reload is supported — <strong>most changes take effect without restarting the bot</strong>, except when changing the Telegram bot token or redis url.</li>
+</ul>
+<p>For more information please, check the <a href="../configuration_file/">configuration file</a> page</p>
+<hr>
+<h3 id="v2-vs-v3-configuration">V2 vs V3 Configuration</h3>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-mono leading-snug text-white docs-columns-code-title border-r">
+        <span>V2</span>
+    </div>
+    <div class="flex items-center px-5 py-3 font-mono leading-snug text-white docs-columns-code-title">
+        <span>V3</span>
+    </div>
+    <div class="docs-columns-code docs-columns-content border-r border-base-border">
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;client&quot;: {
+    &quot;type&quot;: &quot;qbittorrent&quot;,
+    &quot;host&quot;: &quot;http://192.168.178.102:8080&quot;,
+    &quot;user&quot;: &quot;admin&quot;,
+    &quot;password&quot;: &quot;admin&quot;
+  },
+  &quot;telegram&quot;: {
+    &quot;bot_token&quot;: &quot;1111111:AAAAAAAA-BBBBBBBBB&quot;,
+    &quot;api_id&quot;: 1111,
+    &quot;api_hash&quot;: &quot;aaaaaaaa&quot;,
+    &quot;proxy&quot;: {
+      &quot;scheme&quot;: &quot;http&quot;,
+      &quot;hostname&quot;: &quot;myproxy.local&quot;,
+      &quot;port&quot;: 8080,
+      &quot;username&quot;: &quot;admin&quot;,
+      &quot;password&quot;: &quot;admin&quot;
+    }
+  },
+  &quot;users&quot;: [
+    {
+      &quot;user_id&quot;: 123456,
+      &quot;notify&quot;: false,
+      &quot;locale&quot;: &quot;en&quot;,
+      &quot;role&quot;: &quot;administrator&quot;
+    }
+  ]
+}</code></pre>
+</doc-codeblock></div>
+    </div>
+    <div class="docs-columns-code docs-columns-content">
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-yaml"><code v-pre class="language-yaml">client:
+  type: qbittorrent
+  host: http://192.168.178.102:8080
+  user: admin
+  password: admin
+
+redis:
+  url: redis://cache:6379/0
+
+telegram:
+  bot_token: 1111111:AAAAAAAA-BBBBBBBBB
+  proxy:
+    scheme: socks5
+    hostname: 127.0.0.1
+    username: proxyuser
+    password: proxypass
+
+users:
+  - user_id: 123456
+    role: administrator
+    notify: true
+    notification_filter: movies
+    locale: en</code></pre>
+</doc-codeblock></div>
+    </div>
+</div>
+<hr>
 
                 
                 <!-- Required only on API pages -->
@@ -187,16 +262,23 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../faq/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../getting_started/installation/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">FAQ</span>
+                                <span class="block mt-1">Installation-​Updating</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../advanced/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Advanced</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
                     </div>
                 </nav>
             </footer>
@@ -237,6 +319,6 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "Screenshots", level: 1, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/screenshots/index.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Migrating to V3", level: 2, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/getting_started/migrating_to_v3.md" }</script>
 </body>
 </html>
